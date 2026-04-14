@@ -221,7 +221,7 @@ docdict["classifier_options"] = f"""
 
         dummy = DummyClassifier(strategy="stratified", random_state=0)
     
-    Besides the strings, it is also possible to pass a scikit-learn 
+    Besides the strings, it is also possible to pass a scikit-learn
     compatible estimator object (any object implementing a 'fit' method).
     Note that using a custom estimator is at the user's own risk.
 """
@@ -967,7 +967,7 @@ docdict["regressor_options"] = """
 
         dummy = DummyRegressor(strategy="mean")
     
-    Besides the strings, it is also possible to pass a scikit-learn 
+    Besides the strings, it is also possible to pass a scikit-learn
     compatible estimator object (any object implementing a 'fit' method).
     Note that using a custom estimator is at the user's own risk.
 """
