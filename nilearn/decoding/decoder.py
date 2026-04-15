@@ -1245,7 +1245,8 @@ class Decoder(_ClassifierMixin, _BaseDecoder):
         The estimator to choose among:
         %(classifier_options)s
         Besides the strings, it is also possible to pass a scikit-learn
-        compatible estimator object (any object implementing a 'fit' method).
+        compatible estimator object (any object implementing 'fit'
+        and 'predict' methods).
         Note that using a custom estimator is at the user's own risk.
 
     mask : filename, Nifti1Image, NiftiMasker, MultiNiftiMasker, \
@@ -1435,7 +1436,8 @@ class DecoderRegressor(MultiOutputMixin, _RegressorMixin, _BaseDecoder):
         The estimator to choose among:
         %(regressor_options)s
         Besides the strings, it is also possible to pass a scikit-learn
-        compatible estimator object (any object implementing a 'fit' method).
+        compatible estimator object (any object implementing 'fit'
+        and 'predict' methods).
         Note that using a custom estimator is at the user's own risk.
 
     mask : filename, Nifti1Image, NiftiMasker, MultiNiftiMasker, \
@@ -1611,7 +1613,8 @@ class FREMRegressor(MultiOutputMixin, _RegressorMixin, _BaseDecoder):
         The estimator to choose among:
         %(regressor_options)s
         Besides the strings, it is also possible to pass a scikit-learn
-        compatible estimator object (any object implementing a 'fit' method).
+        compatible estimator object (any object implementing 'fit'
+        and 'predict' methods).
         Note that using a custom estimator is at the user's own risk.
 
     mask : filename, Nifti1Image, NiftiMasker, or MultiNiftiMasker, \
@@ -1789,7 +1792,8 @@ class FREMClassifier(_ClassifierMixin, _BaseDecoder):
         The estimator to choose among:
         %(classifier_options)s
         Besides the strings, it is also possible to pass a scikit-learn
-        compatible estimator object (any object implementing a 'fit' method).
+        compatible estimator object (any object implementing 'fit'
+        and 'predict' methods).
         Note that using a custom estimator is at the user's own risk.
 
 
