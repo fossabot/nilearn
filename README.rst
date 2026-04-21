@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXichunXu%2Fnilearn.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FXichunXu%2Fnilearn?ref=badge_shield)
+
 .. image:: https://img.shields.io/pypi/v/nilearn.svg
     :target: https://pypi.org/project/nilearn/
     :alt: Pypi Package
@@ -141,3 +143,7 @@ Development
 
 Detailed instructions on how to contribute are available at
 https://nilearn.github.io/stable/development.html
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FXichunXu%2Fnilearn.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FXichunXu%2Fnilearn?ref=badge_large)
